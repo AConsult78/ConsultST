@@ -1,0 +1,108 @@
+/* homepage.css */
+
+/* สไตล์สำหรับหน้าหลัก */
+
+header {
+    background-color: rgba(186, 85, 211, 0.9);
+    color: white;
+    padding: 0.7em; /* ปรับค่า padding ตามที่ต้องการ */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slideIn 1s ease-out;
+    font-size: 2em;
+}
+
+/* สไตล์สำหรับหน้าหลัก */
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+section#homepage {
+    text-align: center;
+}
+
+#welcome-message {
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+#login-message {
+    color: #d9534f;
+}
+
+/* Transition effects */
+.page-transition {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.page-transition.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* styles/home.css */
+
+/* สไตล์สำหรับกรอบข้อความ */
+.message-box {
+    background-color: #fff; /* สีพื้นหลังของกรอบข้อความ */
+    padding: 5em; /* ช่องว่างภายในกรอบข้อความ */
+    border: 1px solid #ddd; /* ขอบของกรอบข้อความ */
+    border-radius: 8px; /* มุมของกรอบข้อความให้โค้งมน */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาของกรอบข้อความ */
+    margin: 1em 0; /* ช่องว่างรอบกรอบข้อความ */
+    text-align: center; /* จัดข้อความให้อยู่กลางกรอบ */
+}
+
+/* สไตล์ของ <h3> ภายในกรอบ */
+.message-box h3 {
+    margin: 0; /* เอาช่องว่างออกจาก <h3> */
+}
+
+/* สไตล์ของลิงก์ภายในกรอบ */
+.message-box a {
+    color: #333; /* สีของลิงก์ */
+    text-decoration: none; /* เอาเส้นขีดใต้ลิงก์ออก */
+    font-size: 3em; /* ขนาดของข้อความในลิงก์ */
+}
+
+.message-box a:hover {
+    color: #007BFF; /* เปลี่ยนสีเมื่อวางเมาส์อยู่บนลิงก์ */
+    text-decoration: underline; /* ขีดใต้ลิงก์เมื่อวางเมาส์ */
+}
+
+/* styles/home.css */
+
+/* สไตล์สำหรับกรอบข้อความ "แชร์ประสบการณ์" */
+.experience-box {
+    background-color: #fff; /* สีพื้นหลังของกรอบข้อความ */
+    padding: 1em; /* ช่องว่างภายในกรอบข้อความ */
+    border: 1px solid #ddd; /* ขอบของกรอบข้อความ */
+    border-radius: 8px; /* มุมของกรอบข้อความให้โค้งมน */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาของกรอบข้อความ */
+    margin: 1em 0; /* ช่องว่างรอบกรอบข้อความ */
+    text-align: center; /* จัดข้อความให้อยู่กลางกรอบ */
+}
+
+/* สไตล์ของ <h3> ภายในกรอบ */
+.experience-box h3 {
+    margin: 0; /* เอาช่องว่างออกจาก <h3> */
+}
+
+/* สไตล์ของลิงก์ภายในกรอบ */
+.experience-box a {
+    color: #333; /* สีของลิงก์ */
+    text-decoration: none; /* เอาเส้นขีดใต้ลิงก์ออก */
+    font-size: 1.2em; /* ขนาดของข้อความในลิงก์ */
+}
+
+.experience-box a:hover {
+    color: #007BFF; /* เปลี่ยนสีเมื่อวางเมาส์อยู่บนลิงก์ */
+    text-decoration: underline; /* ขีดใต้ลิงก์เมื่อวางเมาส์ */
+}
+
